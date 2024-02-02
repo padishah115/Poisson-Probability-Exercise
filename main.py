@@ -104,7 +104,7 @@ def test_distributions(k_values, tests, distributions):
     #return distribution_steps
 
 
-x = np.arange(int(N*dt)) #The extremal number of successes in N*dt time is equal to N*dt (i.e. a Poisson process with lambda = 1) 
+x = np.arange(int(1.5*N*dt)) #The extremal number of successes in N*dt time is equal to N*dt (i.e. a Poisson process with lambda = 1) 
 #so let this define the far edge of our axis
 
 
